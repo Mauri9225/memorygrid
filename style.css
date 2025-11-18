@@ -1,0 +1,46 @@
+
+.container {  
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.demo {
+    display: flex; /*Hace que el contenido de demo de se coloque de una manera flexible*/
+    gap: 10px;  /*Establece el espacio entre filas y columnas de un diseño*/
+    padding: 5px; /*Establece el relleno interno alrededor del contenido del elemento*/
+    border: 3px black;
+    background-color: azure;
+}
+   
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 1s, transform 1s, border 1s;
+}
+
+.central-container {
+    display: flex;
+    flex-direction: column; /*Esto define la direccion principal de la clase container*/
+    align-items: center; /*esto controla la alineacion de los elementos*/
+    gap: 10px; /* establece el espacion entre los elmementos*/
+    }
+
+.scoreboard {
+    display: flex;
+    font-size: 20px;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+
